@@ -82,7 +82,7 @@ h3 {
 }
 aside {
   border: 1px solid #dee1e3;
-  margin: 3vh;
+  width: 100px;
 }
 aside > p {
   margin: 32px 32px;

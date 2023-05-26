@@ -48,5 +48,74 @@ button {
   border-radius: 300px;
 }
 #img-circle {
-  width: 25%;
+  width: 300px;
+  display: inline-block;
+}
+#div {
+  display: inline-block;
+}
+#testimonianze {
+  background-color: #e22d0e;
+  color: white;
+  margin: 100px 0px;
+  text-align: center;
+}
+h3 {
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+}
+.testimonianze-p {
+  font-style: italic;
+  font-size: 0.8em;
+  margin: 40px;
+}
+.testimonianze-p + p {
+  margin-bottom: 0;
+}
+.testimonianze-p:last-of-type {
+  padding-bottom: 25px;
+  margin-top: 0cm;
+}
+aside {
+  border: 1px solid #dee1e3;
+  height: 500px;
+  width: 200px;
+  display: inline-block;
+  margin: 10px;
+}
+aside p {
+  margin: 32px 32px;
+}
+aside > div {
+  height: 100%;
+  width: 100%;
+}
+aside img {
+  width: 100%;
+}
+footer > div > p {
+  margin: 0cm;
+  font-weight: 300;
+}
+h1 {
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 1em;
+}
+footer {
+  color: white;
+  background-color: #25a2c3;
+  padding: 40px;
+}
+footer a {
+  color: white;
+}
+.copyright {
+  font-size: 0.7em;
+  border-top: 1px solid white;
+  padding-top: 15px;
+  width: 170px;
+  margin: 15px auto;
+  font-weight: 300;
 }
