@@ -7,8 +7,6 @@ body {
   text-align: center;
 }
 header {
-  background-color: black;
-  height: 500px;
   margin-bottom: 50px;
 }
 #img-sfondocontain > img {
@@ -22,10 +20,15 @@ h2 {
   color: #25a2c3;
   font-family: "Montserrat", sans-serif;
   line-height: 1;
-  margin: 1em;
+  margin: 0cm;
 }
-header:first-child {
+#sfondo {
   background-image: url(../images/banner.jpg);
+
+  background-size: 100%;
+  background-size: contain;
+  height: 400px;
+  background-repeat: no-repeat;
 }
 
 p {
