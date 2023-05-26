@@ -9,12 +9,13 @@ body {
 header {
   background-color: black;
   height: 500px;
+  margin-bottom: 50px;
 }
 #img-sfondocontain > img {
   display: block;
   margin: auto;
-  width: 25%;
-  padding: 15px;
+  width: 40%;
+  padding: 20px;
 }
 h1,
 h2 {
@@ -28,12 +29,12 @@ header:first-child {
 }
 
 p {
-  margin: 0 1em;
+  margin: 32px;
 }
 #img-sfondocontain {
   width: 100%;
   background-color: black;
-  height: 20vw;
+  height: 24vw;
 }
 
 button {
@@ -66,35 +67,49 @@ h3 {
 }
 .testimonianze-p {
   font-style: italic;
-  font-size: 0.7em;
+  font-size: 0.8em;
+  margin: 40px;
 }
-.testimonianze-p:first-of-type {
-  margin-bottom: 1rem;
+.testimonianze-p + p {
+  margin-bottom: 0;
+}
+.testimonianze-p:last-of-type {
+  padding-bottom: 25px;
+  margin-top: 0cm;
 }
 aside {
   border: 1px solid #dee1e3;
-  margin: 10vh;
+  margin: 3vh;
 }
-
+aside > p {
+  margin: 32px 32px;
+}
 aside > img {
   width: 100%;
 }
 footer {
   color: white;
   background-color: #25a2c3;
-  padding-bottom: 40px;
+  padding: 40px;
 }
 footer a {
   color: white;
 }
-footer > div {
+.copyright {
   font-size: 0.7em;
-  margin-top: 10px;
   border-top: 1px solid white;
-  padding-top: 10px;
+  padding-top: 15px;
   width: 170px;
-  margin: auto;
+  margin: 15px auto;
+  font-weight: 300;
 }
 footer > div > p {
   margin: 0cm;
+  font-weight: 300;
+}
+h1 {
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 1em;
 }
